@@ -1,0 +1,97 @@
+body {
+    font-family: Garamond, serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.baner {
+    background-color: Tomato;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.chat-box {
+    width: 80%;
+    background-color: white;
+    border: 1px solid Tomato;
+    border-radius: 5px;
+    padding: 15px;
+    height: 600px;
+    overflow-y: auto;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.input-area {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.input-area input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-area button {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: Tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: Coral;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.sidebar h3 {
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    color: white;
+}
+
+footer {
+    background-color: Tomato;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
